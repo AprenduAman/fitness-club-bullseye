@@ -4,10 +4,24 @@ table {
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td {
+  width:25%;
+  opacity:0.9;
+  background-color: whitesmoke;
+  position:sticky;
+  border: 2px solid #b6d3da;
+  
   text-align: left;
-  padding: 8px;
+  padding:3px;
+}
+th {
+  font-weight: 600;
+  font-size: 24px;
+  background-color:whitesmoke;
+  opacity:0.7;
+  text-align: center;
+  
+            
 }
 
 tr:nth-child(even) {

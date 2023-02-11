@@ -32,7 +32,7 @@ export default function INBOX(props) {
 
   return (
     <>
-      <center><h1 style={{ margin: "20px", textShadow: "2.5px 2.5px whitesmoke"}}>
+      <center><h1 style={{  margin: "25px", textShadow: "2px 2px whitesmoke"}}>
         Fitness Club Register
       </h1></center>
       <center><div className={styles.container}>
@@ -101,7 +101,7 @@ export default function INBOX(props) {
             <br />
             <br />
           </div>{" "}
-          <button style={{ cursor:"pointer",  fontWeight:"700", fontSize:"20px",  backgroundColor: "whitesmoke",padding:"15px",paddingLeft:"25px",paddingRight:"25px",borderRadius:"5px" }} onClick={addHandler}>
+          <button  style={ { cursor:"pointer",  fontWeight:"700", fontSize:"20px",  backgroundColor: "#d5f4e6",padding:"7px",paddingLeft:"25px",paddingRight:"25px",borderRadius:"5px", }} onClick={addHandler}>
             Add Member
           </button>
         </form>

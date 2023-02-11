@@ -3,9 +3,9 @@ import './Today.css'
 export default function Today(props) {
   return (
     <>
-      <h2 style={{ margin: "20px", textShadow: "2.5px 2.5px whitesmoke" }}>
+      <center><h2 style={{ margin: "30px", textShadow: "2px 2px whitesmoke" }}>
         Members list
-      </h2>
+      </h2></center>
       <div>
         <table>
           <tr>
@@ -21,6 +21,7 @@ export default function Today(props) {
               <div
                 style={{
                   backgroundColor: "lightgray",
+                  
                   borderRadius: "5px",
                   margin: "10px",
                   padding: "5px",
