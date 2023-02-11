@@ -1,13 +1,18 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Form1 from "./component/Form1";
+import Todo from "./component/Todo";
 
- export default function App(){
-  return(
-    <>
-    <Form1/>
-    
-    </>
-  )
-  
- }
+export default function App() {
+ 
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+
+          <Route path="/" element={<Todo  />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
